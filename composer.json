@@ -1,0 +1,14 @@
+{
+    "name": "parzibyte/leer_excel_php",
+    "description": "Ejemplo de c\u0000mo leer un archivo de Excel con PHP y PHPSpreadSheet - Modificado por Jorge Emiliano Maldonado",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.6"
+    },
+    "authors": [
+        {
+            "name": "Jorge Emiliano Maldonado",
+            "email": "JorgeEmilianoM@gmail.com"
+        }
+    ]
+}
