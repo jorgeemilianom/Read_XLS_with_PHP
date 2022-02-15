@@ -6,10 +6,13 @@
 
 require('functions.php');
 
-//  readDocumentLimits('RuteFile', nShits, Coordenate1['A', 4], Coordenate2['F', 15])
-
-// $data = readAllDocument('datos.xls', 1);
-$data = readDocumentLimits('datos.xlsx', 0, ['C', 6], ['AD', 36]);
+// $allData = readAllDocument('datos.xls', 1);
+$data = readDocumentLimits(
+    'datos.xlsx',       // File XLS (EXCEL)
+    0,                  // Sheet
+    ['A', 1],           // Starting point
+    ['F', 7]            // End Point
+);
 
 $dataJSON = json_encode($data);
 echo($dataJSON);
